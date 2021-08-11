@@ -1,48 +1,52 @@
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    }
-    .container {
-    max-width: 1170px;
-    margin: auto;
-    padding: 0 15px;
-    background-color: burlywood;   
-    } 
-    .title {
-    font-size: 36px;
-    color: #212121;
-    max-width: 1170;
-    text-transform: uppercase;
-    text-align: center;
-    }
-    .line {
-    width: 64px;
-    height: 2px;
-    background-color: #E72424;
-    margin: 30px, auto;
-    }
-    .description {
-    color: #86878B;
-    size: 14px;
-    margin: auto;
-    text-align: center;
-    }
-    .line1 {
-    width: 340px;
-    margin: auto;
-    background-color: #333333;
-    }
-    #line1 {
-    font-size: 20px;  
-    font-weight: bold; 
-    font-style: normal;
-    color: #FFFFFF;
-    }
-    #line2 {
-    width: 340px;
-    margin: auto;
-    background-color: #333333;
-    }
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+.container {
+max-width: 1170px;
+margin: auto;
+padding: 0 15px;
+background-color: burlywood;   
+} 
+.title {
+font-size: 36px;
+color: #212121;
+max-width: 1170;
+text-transform: uppercase;
+text-align: center;
+margin-top: 30px;
+}
+.line {
+width: 64px;
+height: 2px;
+background-color: #E72424;
+margin: 30px, auto;
+}
+.description {
+color: #86878B;
+size: 14px;
+margin: auto;
+text-align: center;
+}
+.pricing-options-list {
+width: 350px;
+}
+.list-item1 {
+width: 340px;
+margin: auto;
+background-color: #333333;
+}
+#text {
+font-size: 20px;  
+font-weight: bold; 
+font-style: normal;
+color: #FFFFFF;
+}
+#list-item2 {
+width: 340px;
+margin: auto;
+background-color: #333333;
+}
