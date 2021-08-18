@@ -1,24 +1,13 @@
-@import url(./awesome.css);
-* {
-    list-style: none;
-    text-decoration: none;
+.pricing-options-row {
+    padding: 0, 110px; 
+    background-color: #F5F5F5;
 }
-.container {
-    width: 1170px;
-    margin: auto;
-    padding: 0px, 15px;
-    background-color: #dad3d3;
-}
-.pricing-options {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: #86878B; 
-}
-.title {
+.title-h2 {
+    margin-top: 80px;
+    text-align: center;
     font-size: 36px;
     color: rgba(33, 33, 33, 1);
     text-transform: uppercase;
-    text-align: center;
 }
 .line {
     width: 64px;
@@ -34,7 +23,7 @@
 }
 
 .pricing-row {
-    margin: 80px, 0px;
+    margin: 80px, 80px;
     display: flex;
 }   
 .pricing-options-list {
